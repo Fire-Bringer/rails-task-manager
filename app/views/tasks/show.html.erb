@@ -1,5 +1,7 @@
 <h1>Task <%= @task.title %></h1>
 
+<%= link_to 'Edit this Task', edit_task_path %>
+
 <ul>
   <li><%= @task.details %></li>
   <li><% if @task.completed == true %>
