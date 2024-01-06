@@ -1,6 +1,14 @@
 Rails.application.routes.draw do
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
+  # Read All Tasks
+  # action location, to: controller#acton, as: prefix
+  get 'tasks', to: 'tasks#index', as: 'tasks'
 
-  # Defines the root path route ("/")
-  # root "articles#index"
+  # Create
+
+  # Read
+
+  # Update
+
+  # Delete
+
 end
